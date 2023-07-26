@@ -1,0 +1,596 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.figma nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 35px;
+  align-items: center;
+}
+.figma nav .logo {
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+.figma nav .logo img {
+  margin: 8px;
+}
+.figma nav .about {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1rem;
+}
+.figma nav .about input {
+  display: none;
+}
+.figma nav .about label {
+  display: none;
+  font-size: 25px;
+}
+.figma nav .about ul {
+  display: flex;
+  gap: 40px;
+}
+.figma nav .about ul li {
+  overflow: hidden;
+}
+.figma nav .about ul li a {
+  text-decoration: none;
+  color: #2B2B2B;
+}
+.figma nav .about ul li a:hover {
+  color: #1a71fc;
+}
+.figma section {
+  margin: 0 auto;
+}
+.figma section .container {
+  max-width: 1300px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 104px;
+}
+.figma section .container .section1 .heading h1 {
+  color: #2A2A2A;
+  text-align: center;
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 82px;
+}
+.figma section .container .section1 .heading p {
+  color: #2B2B2B;
+  text-align: center;
+  line-height: 24px;
+  margin-top: 17px;
+}
+.figma section .container .section1 .images {
+  margin-top: 33px;
+}
+.figma section .container .section1 .images button {
+  width: 250px;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  gap: 16px;
+  border-radius: 67px;
+  background-color: #285E67;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #fff;
+  border: 0;
+  margin-bottom: 56px;
+}
+.figma section .container .section1 .images button:hover {
+  background-color: #046f82;
+}
+.figma section .container .section1 .images button:active {
+  background-color: #095360;
+}
+.figma section .container .section1 .images .cards {
+  align-items: center;
+  display: flex;
+  gap: 48px;
+}
+.figma section .container .section1 .images .cards .card {
+  width: 626px;
+  height: 391px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  background-image: url(./image/rasm.png);
+}
+.figma section .container .section1 .images .cards .cardw {
+  width: 626px;
+  height: 391px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  background-image: url(./image/ovqat.png);
+}
+.figma section .container .section2 {
+  border-radius: 12px;
+  padding: 40px 112px 0 112px;
+  background-color: #F4F4F4;
+  display: flex;
+  gap: 190px;
+}
+.figma section .container .section2 .left {
+  margin: 0;
+}
+.figma section .container .section2 .left h1 {
+  margin: 0;
+  margin-top: 48px;
+  color: #2B2B2B;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 62px;
+  text-align: center;
+  padding: 0;
+}
+.figma section .container .section2 .left .sub {
+  display: flex;
+  gap: 70px;
+  padding: 0;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.figma section .container .section2 .left .sub .box {
+  margin: 0;
+  max-width: 260px;
+}
+.figma section .container .section2 .left .sub .box .leaf {
+  width: 58px;
+  background-color: #285E67;
+  padding: 14px 16px;
+  border-radius: 9px;
+  align-items: flex-start;
+  margin: 0;
+}
+.figma section .container .section2 .left .sub .box p {
+  color: #2B2B2B;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 20px;
+}
+.figma section .container .section2 .right {
+  padding: 0;
+  margin: 0;
+}
+.figma section .container .section2 .right img {
+  margin: 0;
+  margin-top: 170px;
+}
+.figma section .container .section3 {
+  display: flex;
+  gap: 53px;
+}
+.figma section .container .section3 .left {
+  width: 624px;
+  height: 578px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  background-image: url("./image/gul.png");
+}
+.figma section .container .section3 .right {
+  max-width: 625px;
+  color: #2B2B2B;
+  margin: 50px 0;
+}
+.figma section .container .section3 .right h3 {
+  font-size: 50.52px;
+  font-weight: 600;
+  line-height: 62px;
+}
+.figma section .container .section3 .right p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.figma section .container .section3 .right .flower {
+  margin-top: 50px;
+  display: flex;
+  gap: 23px;
+  align-items: center;
+}
+.figma section .container .section3 .right .flower p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.figma section .container .section4 {
+  border-radius: 12px;
+  padding: 56px 110px 100px;
+  background-color: #F4F4F4;
+  display: flex;
+  gap: 87px;
+}
+.figma section .container .section4 .right h1 {
+  margin: 0;
+  margin-top: 48px;
+  color: #2B2B2B;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+}
+.figma section .container .section4 .right .sub {
+  display: flex;
+  gap: 70px;
+  padding: 0;
+  margin-top: 41px;
+}
+.figma section .container .section4 .right .sub .box {
+  margin: 0;
+  max-width: 260px;
+}
+.figma section .container .section4 .right .sub .box .leaf {
+  width: 58px;
+  background-color: #EBBFAE;
+  padding: 14px 16px;
+  border-radius: 9px;
+  align-items: flex-start;
+  margin: 0;
+}
+.figma section .container .section4 .right .sub .box p {
+  color: #2B2B2B;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 20px;
+}
+.figma section .container .section5 .back {
+  background-image: url(./image/ormon.png);
+  max-width: 1302px;
+  max-height: 667px;
+  background-position: center;
+  background-size: cover;
+  padding: 110px 325px 240px;
+  padding-top: 50px;
+  border-radius: 12px;
+}
+.figma section .container .section5 .back .icon {
+  color: #fff;
+  text-align: center;
+  padding-top: 50px;
+}
+.figma section .container .section5 .back .icon .leaf {
+  width: 80px;
+  padding: 17px 24px;
+  border: 2px solid #fff;
+  border-radius: 9px;
+}
+.figma section .container .section5 .back .icon h3 {
+  font-size: 37.9px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-top: 45px;
+}
+.figma section .container .section5 .back .icon p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 12px;
+}
+.figma section .container .section5 .back .icon .join {
+  display: flex;
+  width: 257px;
+  height: 56px;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border: 2px solid #F4F4F4;
+  border-radius: 67px;
+}
+.figma section .container .section5 .back .icon .join a {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 21.33px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: none;
+}
+.figma section .container .section5 .drop {
+  padding: 120px 66px;
+  background-color: #FCE2D7;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1165px;
+  padding: 119px 66px;
+  align-items: center;
+  border-radius: 12px;
+  margin-top: -200px;
+}
+.figma section .container .section5 .drop .boxes {
+  color: #2B2B2B;
+  display: flex;
+  gap: 17px;
+  flex-wrap: wrap;
+}
+.figma section .container .section5 .drop .boxes .box {
+  width: 245px;
+}
+.figma section .container .section5 .drop .boxes .box .plant {
+  width: 82px;
+  height: 82px;
+  border: 2px solid;
+  border-radius: 82px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+.figma section .container .section5 .drop .boxes .box p {
+  text-align: center;
+  font-size: 21.33px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.figma footer {
+  margin-top: 118px;
+  padding: 78px 139px;
+  background-color: #285E67;
+  color: #FFF;
+}
+.figma footer div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.figma footer div a {
+  margin: 0;
+  text-align: center;
+  font-size: 21.33px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.figma footer div a img {
+  margin: 8px;
+}
+.figma footer div form {
+  display: flex;
+  margin: 0;
+  gap: 40px;
+}
+.figma footer div form a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.figma footer div form a:hover {
+  color: #1a71fc;
+}
+.figma footer .logos {
+  max-width: 166px;
+  margin: 0;
+  margin-top: 40px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+@media (max-width: 430px) {
+  .figma {
+    max-width: 430px;
+    margin: 0;
+    padding: 0;
+  }
+  .figma nav {
+    padding: 28px 35px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .figma nav .logo {
+    margin: 0;
+    padding: 0;
+  }
+  .figma nav .about {
+    margin: 0;
+    padding: 0;
+  }
+  .figma nav .about label {
+    display: block;
+  }
+  .figma nav .about ul {
+    display: none;
+  }
+  .figma nav .about input:checked + ul {
+    background: aqua;
+    display: block;
+  }
+  .figma section {
+    max-width: 430px;
+    padding: 0;
+  }
+  .figma section .container {
+    padding: 0;
+    max-width: 430px;
+    margin: 0;
+    margin-top: 64px;
+  }
+  .figma section .container .section1 .heading {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .figma section .container .section1 .heading h1 {
+    font-size: 38px;
+    line-height: 47px;
+  }
+  .figma section .container .section1 .images {
+    max-width: 360px;
+  }
+  .figma section .container .section1 .images .cards {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .figma section .container .section2 {
+    max-width: 360px;
+    padding: 36px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .figma section .container .section2 .left {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .figma section .container .section2 .left h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  .figma section .container .section2 .left .sub {
+    margin: 0;
+    flex-wrap: wrap;
+    max-width: 360px;
+  }
+  .figma section .container .section2 .left .sub .box {
+    max-width: 356px;
+  }
+  .figma section .container .section2 .left .sub .box .leaf {
+    margin: 0 auto;
+  }
+  .figma section .container .section2 .left .sub .box p {
+    text-align: center;
+  }
+  .figma section .container .section2 .right {
+    display: none;
+  }
+  .figma section .container .section3 {
+    max-width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .figma section .container .section3 .right h3 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .figma section .container .section3 .right p {
+    text-align: center;
+  }
+  .figma section .container .section3 .right .flower p {
+    text-align: left;
+  }
+  .figma section .container .section4 {
+    max-width: 360px;
+    padding: 36px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .figma section .container .section4 .left {
+    display: none;
+  }
+  .figma section .container .section4 .right {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .figma section .container .section4 .right h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  .figma section .container .section4 .right .sub {
+    margin: 0;
+    flex-wrap: wrap;
+    max-width: 360px;
+  }
+  .figma section .container .section4 .right .sub .box {
+    max-width: 356px;
+  }
+  .figma section .container .section4 .right .sub .box .leaf {
+    margin: 0 auto;
+  }
+  .figma section .container .section4 .right .sub .box p {
+    text-align: center;
+  }
+  .figma section .container .section5 .back {
+    max-width: 360px;
+    height: 354px;
+    border-radius: 12px;
+    padding: 0;
+  }
+  .figma section .container .section5 .back .icon {
+    margin: 40px 62px;
+  }
+  .figma section .container .section5 .back .icon h3 {
+    font-size: 21px;
+    margin-top: 13px;
+  }
+  .figma section .container .section5 .back .icon p {
+    overflow: hidden;
+    display: none;
+  }
+  .figma section .container .section5 .back .icon .join {
+    width: 198px;
+    height: 46px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .figma section .container .section5 .drop {
+    max-width: 298px;
+    padding: 0;
+    margin-top: -71px;
+  }
+  .figma section .container .section5 .drop .boxes {
+    padding: 71px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 49px;
+  }
+  .figma section .container .section5 .drop .boxes .box {
+    max-width: 298px;
+  }
+  .figma section .container .section5 .drop .boxes .box p {
+    margin-top: 18px;
+  }
+  .figma footer {
+    max-width: 430px;
+    padding: 70px 100px;
+    margin-top: 60px;
+  }
+  .figma footer .container-fluid {
+    width: 170px;
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+  .figma footer .container-fluid .navbar-brand {
+    align-items: center;
+    font-size: 21px;
+    display: flex;
+    font-weight: 600;
+    margin: 0;
+  }
+  .figma footer .container-fluid .navbar-brand img {
+    margin: 8px;
+  }
+  .figma footer .container-fluid form {
+    width: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .figma .logos {
+    width: 180px;
+    display: flex;
+    gap: 24px;
+    margin: 0;
+  }
+}/*# sourceMappingURL=main.css.map */
